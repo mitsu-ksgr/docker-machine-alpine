@@ -1,6 +1,21 @@
 docker-machine-alpine
 =====================
 
-[mitsuksgr/docker\-machine\-alpine \- Docker Hub](https://hub.docker.com/r/mitsuksgr/docker-machine-alpine/)
+DockerHub: [mitsuksgr/docker\-machine\-alpine \- Docker Hub](https://hub.docker.com/r/mitsuksgr/docker-machine-alpine/)
 
-:sushi:
+
+## How to use
+
+#### docker
+```bash
+$ docker container run mitsuksgr/docker-machine-alpine version
+docker-machine version 0.15.0, build b48dc28d
+```
+
+
+#### docker-compose
+```bash
+$ docker-compose run docker-machine version
+docker-machine version 0.15.0, build b48dc28d
+```
+
