@@ -11,6 +11,6 @@ RUN apk --no-cache update && \
     chmod +x /usr/local/bin/docker-machine
 
 
-ENTRYPOINT ["/usr/bin/docker-machine"]
+ENTRYPOINT ["/usr/local/bin/docker-machine"]
 CMD [""]
 
